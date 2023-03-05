@@ -1,1 +1,3 @@
-#<font color=blue>Evidence Official Github Page
+# Evidence Official Github Page
+
+## This repository is an open source for a website called 'Evidence'.
