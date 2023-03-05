@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evidence - Sign Up Page</title>
+  <link rel="stylesheet" href="signup.css" />
+  <link rel="icon" type="image/png" href="../../page_logo.png">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <a href="../../main.htm">
+              <img src="../../page_header.png" alt="page_header">
+            </a>
+          </div>
+          <ul class="menu">
+            <li><a href="../../main.htm">Home</a></li>
+            <li><a href="#">Videos</a></li>
+            <li class="dropdown">
+              <a href="#">Community</a>
+              <div class="dropdown-content">
+                <a href="../../Subpages/Community/Forum/forum.htm">Forums</a>
+                <a href="../../Subpages/Community/Chat/chat.htm">Chats</a>
+              </div>
+            </li>
+            <li><a href="#">Supports</a></li>
+          </ul>
+        </nav>
+      </header>
+      <form>
+        <h2>Create an account</h2>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" required>
+        </div>
+        <div class="form-control">
+          <label for="email">Email address</label>
+          <input type="email" id="email" placeholder="Enter email" required>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" required>
+        </div>
+        <div class="form-control">
+          <label for="confirm-password">Confirm password</label>
+          <input type="password" id="confirm-password" placeholder="Confirm password" required>
+        </div>
+        <button type="submit">Sign up</button>
+      </form>
+      <div class="alreadymember">
+        <a href="../Login/login.html">Already had an account? Log In</a>
+      </div>      
+      <script src="signup.js"></script>
+</body>
